@@ -1,0 +1,17 @@
+langchain>=0.1.0
+langchain-community>=0.0.29
+langchain_ollama==0.3.4
+chromadb>=0.4.24
+nomic>=2.2.3
+ollama>=0.1.7
+tiktoken>=0.5.2
+# You may also need these depending on your data format
+pypdf
+python-docx
+unstructured
+unstructured[pdf]
+dspy-ai-2.6.27
+# If you need DirectoryLoader to support different file types, uncomment as needed
+# pdfminer.six
+# docx2txt
+# Pillow
